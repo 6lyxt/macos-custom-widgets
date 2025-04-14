@@ -2,9 +2,9 @@
 
 create click- & draggable widgets on macos
 
-### building
+### building (including example)
 ```zsh
-$ g++ -o CustomWidgets src/main.mm src/OverlayView.mm -framework Cocoa -framework QuartzCore
+$ g++ -o OverlayApp src/main.mm src/OverlayView.mm src/examples/SpotifyWidget.mm -framework Cocoa -framework QuartzCore
 ```
 
 ### usage
